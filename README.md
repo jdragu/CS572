@@ -5,7 +5,7 @@ Plant Identification Final Project
 
 This code is designed to predict plant traits using both tabular data and image data. It uses a combination of a custom Convolutional Neural Network (CNN) and tabular data processed through Dense layers to make these predictions. The model is trained to perform multi-target regression on six target variables.
 
-## Main Functionalities
+### Main Functionalities
 
 1. **Data Loading and Cleaning**: The code begins by loading the tabular data (train.csv and test.csv) and performs some basic cleaning operations, such as dropping certain columns and removing outliers.
 
@@ -23,7 +23,7 @@ This code is designed to predict plant traits using both tabular data and image 
 
 8. **Denormalization**: The code then denormalizes the predictions to bring them back to the original scale. This is done by reversing the standardization that was applied during the training phase.
 
-## Files
+### Files
 
 The main script is a single Python file that includes all the functionalities mentioned above. It imports several libraries such as os, sys, pandas, numpy, tensorflow, etc. The main data files it interacts with are:
 
@@ -32,7 +32,7 @@ The main script is a single Python file that includes all the functionalities me
 - `train_images`: A directory containing the training images.
 - `test_images`: A directory containing the test images.
 
-## How to Run
+### How to Run
 
 To run this code, you need to have Python installed along with the libraries mentioned in the import statements. You also need to have the data files in the correct directories. Once everything is set up, you can run the script using a Python interpreter. I ran the code in Kaggle.
 
@@ -40,7 +40,7 @@ To run this code, you need to have Python installed along with the libraries men
 
 This code is designed to predict plant traits using both tabular data and image data. It uses a combination of LightGBM, a gradient boosting framework that uses tree-based learning algorithms, and EfficientNet.
 
-## Main Functionalities
+### Main Functionalities
 
 1. **Data Download and Extraction**: The code begins by downloading and extracting data from specified URLs. It handles both zip and tar files and saves the extracted files to a specified directory.
 
@@ -52,7 +52,7 @@ This code is designed to predict plant traits using both tabular data and image 
 
 5. **Prediction and Submission Preparation**: Finally, the code makes predictions on the test set using the trained models and prepares a submission file.
 
-## Files
+### Files
 
 The main script is a single Python file that includes all the functionalities mentioned above. It imports several libraries such as os, sys, pandas, numpy, lightgbm, tensorflow, etc. The main data files it interacts with are:
 
@@ -61,6 +61,6 @@ The main script is a single Python file that includes all the functionalities me
 - `train_images`: A directory containing the training images.
 - `test_images`: A directory containing the test images.
 
-## How to Run
+### How to Run
 
 To run this code, you need to have Python installed along with the libraries mentioned in the import statements. You also need to have the data files in the correct directories. Once everything is set up, you can run the script using a Python interpreter. I ran the code both in Kaggle and Google Colab using an L4 GPU.
